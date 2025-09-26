@@ -46,7 +46,7 @@ quantity: Units per package
 **🔧 Workflow
 1️⃣ Database Setup**
 
-Created a SQL table with appropriate data types to store product details:
+* Created a SQL table with appropriate data types to store product details: * 
 
 CREATE TABLE zepto (
   sku_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -86,8 +86,9 @@ Removed rows with invalid values (MRP = 0 or discountedSellingPrice = 0)
 Converted mrp and discountedSellingPrice from paise to rupees for consistency
 
 Standardized values in boolean and quantity fields
-**
-5️⃣ Business Insights (via SQL Queries)**
+
+
+**5️⃣ Business Insights (via SQL Queries)**
 
 Found Top 10 products offering the highest discounts
 
